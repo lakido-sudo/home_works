@@ -1,0 +1,15 @@
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.csproj.AssemblyReference.cache
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.GeneratedMSBuildEditorConfig.editorconfig
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.AssemblyInfoInputs.cache
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.AssemblyInfo.cs
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.csproj.CoreCompileInputs.cache
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/HW_C#_002
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/HW_C#_002.deps.json
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/HW_C#_002.runtimeconfig.json
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/HW_C#_002.dll
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/ref/HW_C#_002.dll
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/bin/Debug/net6.0/HW_C#_002.pdb
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.dll
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/ref/HW_C#_002.dll
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.pdb
+/home/lakido/Учеба/C# (Проекты)/HW/HW_C#_002/obj/Debug/net6.0/HW_C#_002.genruntimeconfig.cache
