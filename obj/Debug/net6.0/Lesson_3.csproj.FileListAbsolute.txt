@@ -1,0 +1,15 @@
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/Lesson_3
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/Lesson_3.deps.json
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/Lesson_3.runtimeconfig.json
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/Lesson_3.dll
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/ref/Lesson_3.dll
+/home/lakido/Учеба/С#/Lesson_3/bin/Debug/net6.0/Lesson_3.pdb
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.csproj.AssemblyReference.cache
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.GeneratedMSBuildEditorConfig.editorconfig
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.AssemblyInfoInputs.cache
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.AssemblyInfo.cs
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.csproj.CoreCompileInputs.cache
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.dll
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/ref/Lesson_3.dll
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.pdb
+/home/lakido/Учеба/С#/Lesson_3/obj/Debug/net6.0/Lesson_3.genruntimeconfig.cache
