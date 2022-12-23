@@ -1,0 +1,47 @@
+Console.WriteLine("Задача 41");
+
+//Переменная, в которой сохраняется колличество вводимых положительных чисел
+float countPosNumbers = 0;
+
+Console.Write("Введите колличество чисел: ");
+
+//Условие для проверки ввода, начинается с ввода m (m - сколько раз будет ввод)
+if (float.TryParse(Console.ReadLine(), out float m))
+{
+    //Запуск ввода 
+    for (int i = 0; i < m; i++)
+        {
+            Console.Write($"Введите число {i + 1}: ");
+
+            //Ввод ссохраняется в num
+            float.TryParse(Console.ReadLine(), out float num);
+
+            //Условие для подсчета положительных чисел
+            if (num > 0)
+            countPosNumbers++;
+        }
+    Console.WriteLine($"Положительных чисел: {countPosNumbers}");
+}
+
+//Когда условие не выполнено (введено не число)
+else
+{
+    Console.WriteLine("Попробуйте еще раз.");
+}
+
+Console.WriteLine("");
+Console.WriteLine("Задача 43");
+
+Console.WriteLine("Введи координаты первой прямой: ");
+float.TryParse(Console.ReadLine(), out float k1);
+float.TryParse(Console.ReadLine(), out float b1);
+
+Console.WriteLine("Введи координаты второй прямой:");
+float.TryParse(Console.ReadLine(), out float k2);
+float.TryParse(Console.ReadLine(), out float b2);
+
+//Приравниваем (k1 * x + b1 = k2 * x + b2), затем выражаем x, и находим y:
+float x = (b2-b1)/(k1-k2);
+float y = k1*(b2-b1)/(k1-k2)+b1;  
+
+Console.WriteLine($"Точка пересечения прямых ({x}; {y})");
