@@ -1,70 +1,68 @@
-﻿//1
-Console.WriteLine("Задача 34");
-int[] array = new int[4];
-Random rand = new Random();
-int sumEven = 0;
+Console.WriteLine("Задача 47 ");
+Console.WriteLine("Массив случайных вещественных чисел");
 
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = rand.Next(100, 999);
-    Console.WriteLine(array[i]);
-    if ((array[i] % 2) == 0)
-    {
-        sumEven +=1;
-    }
-}
+int m = 3;
+int n = 4;
 
-Console.WriteLine("Количество четных чисел в этом массиве: " + sumEven);
-
-//2
-Console.WriteLine("Задача 36");
-int[] array2 = new int[4];
-Random rand2 = new Random();
-int sumNotEven = 0;
-
-for (int i = 0; i < array2.Length; i++)
-{
-    array2[i] = rand2.Next(100, 999);
-    Console.WriteLine(array2[i]);
-    if ((array2[i] % 2) == 1)
-    {
-        sumNotEven += 1;
-    }
-}
-
-Console.WriteLine("Количество не четных чисел в этом массиве: " + sumNotEven);
-
-//3
-Console.WriteLine("Задача 38");
-double[,] array3 = new double[4, 4];
+double[,] array = new double[m, n];
 Random random = new Random();
 
-double minNumber = 100;
-double maxNumber = array3[0,0];
- 
-for (int i = 0; i < 4; i++)
+for (int i = 0; i < m; i++)
 {
-    
-    for (int j = 0; j < 4; j++)
+    for (int j = 0; j < n ; j++)
     {
-        array3[i, j] = random.NextDouble() * 100;
-        Console.Write("{0,6:F2}", array3[i, j]);
-
-        if (maxNumber < array3[i,j])
-        {
-            maxNumber = array3[i,j];
-        }
-        if (minNumber > array3[i,j])
-        {
-            minNumber = array3[i,j];
-        } 
+        array[i, j] = (random.NextDouble() * 2.0 - 1.0) * 10;
+        Console.Write("{0,6:F2}", array[i, j]);
     }
     Console.WriteLine();
 }
 
-double difference = maxNumber - minNumber;
+Console.WriteLine("Задача 50");
+Console.WriteLine("Массив 4х4");
 
-Console.WriteLine("В этом массиве: ");
-Console.WriteLine("Минимальное число"+"{0,6:F2}",minNumber);
-Console.WriteLine("Максимальное число"+"{0,6:F2}",maxNumber);
-Console.WriteLine($"Разница"+"{0,6:F2}",difference);
+int o = 4;
+int p = 4;
+int[,] array2 = new int[o, p];
+
+for (int i = 0; i < array2.GetLength(0); i++) 
+{
+    for (int j = 0; j < array2.GetLength(1); j++)
+        array2 [i, j] = Convert.ToInt32(new Random().Next(0,10));  
+}
+
+for (int i = 0; i < array2.GetLength(0); i++) 
+{
+    for (int j = 0; j < array2.GetLength(1); j++)
+        Console.Write(array2[i,j] + "\t");
+        Console.WriteLine();
+}
+
+Console.WriteLine("Введите координаты числа (индексы)");
+
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
+
+if (a>=o && b>=p || a>=o && b<=p || a<=o && b>=p )
+{
+Console.WriteLine("По таким координатам в данном массиве нет числа");
+}
+else
+{
+object c = array2.GetValue(a,b);
+Console.WriteLine($"По таким координатам в данном массиве число : {c}");
+}
+
+Console.WriteLine("Задача 52");
+
+int[,] mas = new int[3,3] {{1,2,3},{4,5,6},{7,8,8}};
+
+for (int i = 0; i < 3; i++) 
+{
+    int srAr = 0;
+    for (int t = 0; t < 3; t++)
+    {
+        srAr += mas[i,t];
+        Console.Write(mas[t, i] + "\t");
+    }
+Console.WriteLine($"Cреднее арифметическое элементов столбца {i + 1} = {(float)srAr/3}");
+}
